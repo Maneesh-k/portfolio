@@ -179,13 +179,18 @@
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
 
+          <li class="navbar-item">
+            <button class="navbar-link" onclick="downloadPdf()">Download</button>
+
+            <script>
+              function downloadPdf() {
+                window.location.href = "https://drive.google.com/uc?export=download&id=1mnK4VEVGBgvUhS556qwih_4gIgyUievr";
+              }
+            </script>
+          </li>
         </ul>
 
       </nav>
-
-
-
-
 
       <!--
         - #ABOUT
@@ -653,11 +658,11 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Technical skills</button>
+              <button data-filter-btn>DataBase</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Others</button>
+              <button data-filter-btn>Technical skills</button>
             </li>
 
           </ul>
@@ -685,11 +690,11 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Technical skills</button>
+                <button data-select-item>DataBase</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Others</button>
+                <button data-select-item>Technical skills</button>
               </li>
 
             </ul>
@@ -702,9 +707,7 @@
               <a href="#">
 
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+              
 
                   <img src="./assets/images/project-1.png" alt="JavaScript" loading="lazy">
                 </figure>
@@ -720,9 +723,7 @@
               <a href="#">
 
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+              
 
                   <img src="./assets/images/project-2.png" alt="Node JS" loading="lazy">
                 </figure>
@@ -738,10 +739,7 @@
               <a href="#">
 
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
+            
                   <img src="./assets/images/project-3.png" alt="Java" loading="lazy">
                 </figure>
 
@@ -756,9 +754,7 @@
               <a href="#">
 
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                
 
                   <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
                 </figure>
@@ -774,9 +770,7 @@
               <a href="#">
 
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                
 
                   <img src="./assets/images/project-5.png" alt="SpringBoot" loading="lazy">
                 </figure>
@@ -788,92 +782,82 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="technical skills">
+            <li class="project-item  active" data-filter-item data-category="database">
               <a href="#">
 
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+               
 
                   <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">PostgreSQL</h3>
 
-                <p class="project-category">Technical skills</p>
+                <p class="project-category">DataBase</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="languages">
+            <li class="project-item  active" data-filter-item data-category="technical skills">
               <a href="#">
 
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                 
 
                   <img src="./assets/images/project-7.svg" alt="NestJs" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">NestJs</h3>
 
-                <p class="project-category">Languages</p>
+                <p class="project-category">Technical skills</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="others">
+            <li class="project-item  active" data-filter-item data-category="database">
               <a href="#">
 
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                
 
                   <img src="./assets/images/project-8.svg" alt="Firebase" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Firebase Real Time database</h3>
 
-                <p class="project-category">Others</p>
+                <p class="project-category">DataBase</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="languages">
+            <li class="project-item  active" data-filter-item data-category="database">
               <a href="#">
 
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                
 
                   <img src="./assets/images/project-9.svg" alt="Redis" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Redis</h3>
 
-                <p class="project-category">Languages</p>
+                <p class="project-category">DataBase</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="others">
+            <li class="project-item  active" data-filter-item data-category="database">
               <a href="#">
 
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+               
 
                   <img src="./assets/images/project-10.png" alt="MongoDb" loading="lazy">
                 </figure>
 
                 <h3 class="project-title">MongoDb</h3>
 
-                <p class="project-category">Others</p>
+                <p class="project-category">DataBase</p>
 
               </a>
             </li>
@@ -915,10 +899,17 @@
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
+            <button class="form-btn" type="submit" onclick="redirectToGmail()">
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
+
+            <script>
+              function redirectToGmail() {
+                window.open("https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrkWHqGtfNBdbVGpvKctTMrWHccNbCcTXjdpBWKppNRXhkNWfrQvSdDdkGjrZvvGKPQJvB", "_blank");
+              }
+              </script>
+
 
           </form>
 
